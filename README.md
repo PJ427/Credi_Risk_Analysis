@@ -11,8 +11,8 @@
     1. Oversample the data using the RandomOverSampler and SMOTE algorithms
     2. Undersample the data using the ClusterCentroids algorithm
     3. Use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm.
-    4. Compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict
-       credit risk.
+    4. Compare two new machine learning models that reduce bias, BalancedRandomForestClassifier
+    and EasyEnsembleClassifier, to predict credit risk.
     5. Finally, evaluate the perfomance of these models and submit a written reccomendation
   
 ## Results
