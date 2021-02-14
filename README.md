@@ -24,14 +24,14 @@
   this portion using a Combination (over and under) Sampling usingthe SMOTEENN algorithm.
   
    | :Algorithm:       | Accuracy | Precision | Recall |   F1   |
-   | ----------------- | -------- | --------- | ------ | ------ |
-   | RandomOverSampler | :66%:    | :99%:     | :67%   | :80%   |
-   | ----------------- |
-   | SMOTE             |
-   |------------------ |
-   | ClusterCentroids  |
-   | ----------------- |
-   | SMOTEENN          |
+   | ----------------- | :------: | :-------: | :----: | :----: |
+   | RandomOverSampler | 66%      | 99%       | 67%    | 80%    |
+   |                   |          |           |        |        |
+   | SMOTE             | 63%      | 64%       | 62%    | 78%    |
+   |                   |          |           |        |        |
+   | ClusterCentroids  | 63%      | 99%       | 40%    | 57%    |
+   |                   |          |           |        |        |
+   | SMOTEENN          | 51%      | 99%       | 58%    | 73%    |
 
 ## Summary
 
