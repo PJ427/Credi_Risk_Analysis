@@ -23,7 +23,7 @@
   and then the SMOTE algorithm.  Next we moved onto Undersampling, using the Clustered Centroids algorithm.  Finally, we completed
   this portion using a Combination (over and under) Sampling using the SMOTEENN algorithm:
   
-   | :Algorithm:       | Accuracy | Precision | Recall |   F1   |
+   | Algorithm         | Accuracy | Precision | Recall |   F1   |
    | ----------------- | :------: | :-------: | :----: | :----: |
    | RandomOverSampler | 66%      | 99%       | 67%    | 80%    |
    |                   |          |           |        |        |
@@ -36,7 +36,7 @@
   Moving onto the Credit Risk Ensemble, we attempt to determine which algorithm results in the best performance.  Here we use the
   Balanced RandomForestClassifier and the EasyEnsembleClaaifier:
   
-   | :Algorithm:            | Accuracy | Precision | Recall |   F1   |
+   |  Algorithm             | Accuracy | Precision | Recall |   F1   |
    | -----------------------| :------: | :-------: | :----: | :----: |
    | RandomForestClassifier | 67%      | 100%      | 100%   | 100%   |
    |                        |          |           |        |        |
