@@ -17,7 +17,21 @@
   
 ## Results
 
-  There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models 
+  There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine
+  learning models.  By using six machine learning models we attempted to determine which algorithm results in the best perfomance.
+  In our Credit Risk Reampling we used four algorithms beginnig with Oversmapling.  First we used the Naive Random Oversampling
+  and then the SMOTE algorithm.  Next we moved onto Undersampling, using the Clustered Centroids algorithm.  Finally we completed
+  this portion using a Combination (over and under) Sampling usingthe SMOTEENN algorithm.
+  
+   | Algorithm         | Accuracy | Precision | Recall |   F1   |
+   | ----------------- | -------- | --------- | ------ | ------ |
+   | RandomOverSampler |
+   | ----------------- |
+   | SMOTE             |
+   |------------------ |
+   | ClusterCentroids  |
+   | ----------------- |
+   | SMOTEENN          |
 
 ## Summary
 
