@@ -23,9 +23,9 @@
   and then the SMOTE algorithm.  Next we moved onto Undersampling, using the Clustered Centroids algorithm.  Finally we completed
   this portion using a Combination (over and under) Sampling usingthe SMOTEENN algorithm.
   
-   | Algorithm         | Accuracy | Precision | Recall |   F1   |
+   | :Algorithm:       | Accuracy | Precision | Recall |   F1   |
    | ----------------- | -------- | --------- | ------ | ------ |
-   | RandomOverSampler |
+   | RandomOverSampler | :66%:    | :99%:     | :67%   | :80%   |
    | ----------------- |
    | SMOTE             |
    |------------------ |
