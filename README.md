@@ -17,11 +17,11 @@
   
 ## Results
 
-  There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine
-  learning models.  By using six machine learning models we attempted to determine which algorithm results in the best perfomance.
-  In our Credit Risk Reampling we used four algorithms beginnig with Oversmapling.  First we used the Naive Random Oversampling
-  and then the SMOTE algorithm.  Next we moved onto Undersampling, using the Clustered Centroids algorithm.  Finally we completed
-  this portion using a Combination (over and under) Sampling usingthe SMOTEENN algorithm.
+  By using six machine learning models we attempted to determine which algorithm results in the best perfomance.
+  
+  In our Credit Risk Reampling we used four algorithms beginnig with Oversampling.  First, we used the Naive Random Oversampling
+  and then the SMOTE algorithm.  Next we moved onto Undersampling, using the Clustered Centroids algorithm.  Finally, we completed
+  this portion using a Combination (over and under) Sampling using the SMOTEENN algorithm:
   
    | :Algorithm:       | Accuracy | Precision | Recall |   F1   |
    | ----------------- | :------: | :-------: | :----: | :----: |
@@ -32,6 +32,15 @@
    | ClusterCentroids  | 63%      | 99%       | 40%    | 57%    |
    |                   |          |           |        |        |
    | SMOTEENN          | 51%      | 99%       | 58%    | 73%    |
+  
+  Moving onto the Credit Risk Ensemble, we attempt to determine which algorithm results in the best performance.  Here we use the
+  Balanced RandomForestClassifier and the EasyEnsembleClaaifier:
+  
+   | :Algorithm:            | Accuracy | Precision | Recall |   F1   |
+   | -----------------------| :------: | :-------: | :----: | :----: |
+   | RandomForestClassifier | 67%      | 100%      | 100%   | 100%   |
+   |                        |          |           |        |        |
+   | EasyEnsembleClassifier | 67%      | 99%       | 94%    | 97%    |
 
 ## Summary
 
