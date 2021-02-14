@@ -19,19 +19,22 @@
 
   By using six machine learning models we attempted to determine which algorithm results in the best perfomance.
   
-  In our Credit Risk Reampling we used four algorithms beginnig with Oversampling.  First, we used the Naive Random Oversampling
+  In our Credit Risk Reampling we used four algorithms beginning with Oversampling.  First, we used the Naive Random Oversampling
   and then the SMOTE algorithm.  Next we moved onto Undersampling, using the Clustered Centroids algorithm.  Finally, we completed
   this portion using a Combination (over and under) Sampling using the SMOTEENN algorithm:
   
    | Algorithm         | Accuracy | Precision | Recall |   F1   |
    | ----------------- | :------: | :-------: | :----: | :----: |
-   | RandomOverSampler | 66%      | 99%       | 67%    | 80%    |
+   | RandomOverSampler | 66%      | 99%       | 67%    | 80%    |  
    |                   |          |           |        |        |
-   | SMOTE             | 63%      | 64%       | 62%    | 78%    |
+   | SMOTE             | 63%      | 99%       | 64%    | 78%    |  
    |                   |          |           |        |        |
    | ClusterCentroids  | 63%      | 99%       | 40%    | 57%    |
    |                   |          |           |        |        |
    | SMOTEENN          | 51%      | 99%       | 58%    | 73%    |
+  
+  The four algorithms used in the Credit Risk Resampling all produced the same basic results.  None of the algorithms produced a
+  significant change
   
   Moving onto the Credit Risk Ensemble, we attempt to determine which algorithm results in the best performance.  Here we use the
   Balanced RandomForestClassifier and the EasyEnsembleClaaifier:
@@ -41,9 +44,11 @@
    | RandomForestClassifier | 67%      | 100%      | 100%   | 100%   |
    |                        |          |           |        |        |
    | EasyEnsembleClassifier | 67%      | 99%       | 94%    | 97%    |
+   
+  Looking at the averages of the Ensemble algorithms either could be used to predict credit risk.
 
 ## Summary
 
-  There is a summary of the results
-  
-  There is a recommendation on which model to use, or there is no recommendation with a justification
+  The results produced using the six machine learning results did not vary as much as we would like.  THe Resampling produced, basically,
+  the same results.  The RandomOverSampler would be the best to use if needed, however, either of the algorithms use in the Ensemble would
+  be better to use to determine credit risk.  With the RandomForestClassifier producing the better results.
